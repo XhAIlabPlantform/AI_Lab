@@ -1,0 +1,117 @@
+<template>
+  <div id="UseTestUsePlace">
+    <body>
+		<div class="UseTestUsePlace_Title">应用场景</div>
+		<div class="UseTestUsePlace_Item_Group">
+		    <div class="UseTestUsePlace_Item_Group_Item_Left">
+		        <div class="UseTestUsePlace_Item_Group_Item_Img_Left"></div>
+		        <div class="UseTestUsePlace_Item_Group_Item_Word">
+		            <div class="UseTestUsePlace_Item_Group_Item_Word_Title">停车场闸机识别</div>
+		            <div class="UseTestUsePlace_Item_Group_Item_Word_Content">在停车场的闸机上使用车牌识别，自动识别车牌号码实现无卡、无人的停车场管理，方便快捷</div>
+		        </div>
+		    </div>
+		    <div class="UseTestUsePlace_Item_Group_Item_Right">
+		        <div class="UseTestUsePlace_Item_Group_Item_Img_Right"></div>
+		        <div class="UseTestUsePlace_Item_Group_Item_Word">
+		            <div class="UseTestUsePlace_Item_Group_Item_Word_Title">道路违章识别</div>
+		            <div class="UseTestUsePlace_Item_Group_Item_Word_Content">在交通道路上的摄像头中加入车牌识别结合违章判断，对违章车辆的车牌号码进行自动识别，实现自动化的违章审计</div>
+		        </div>
+		    </div>
+		</div>
+	</body>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'UseTestUsePlace'
+}
+</script>
+
+<style scoped>
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 62.5%;
+    background-color: #F2F2F2;
+}
+body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"微软雅黑"!important;}
+div{
+    padding: 0;
+    margin: 0;
+}
+
+.UseTestUsePlace_Title{
+  width: 100%;
+  height: 0.3rem;
+  text-align: center;
+  font-size: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.UseTestUsePlace_Item_Group{
+  vertical-align: top;
+  align-self: center;
+  margin-top: 0.7rem;
+}
+
+.UseTestUsePlace_Item_Group_Item_Left{
+  margin-right: 0.683rem;
+  display: inline-block;
+  width: 3.415rem;
+  background-color: white;
+  height: 4.3712rem;
+  cursor:default;
+}
+
+.UseTestUsePlace_Item_Group_Item_Left:hover{
+  box-shadow: 0 0.04rem 0.08rem 0 rgba(0, 0, 0, 0.2), 0 0.06rem 0.20rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.UseTestUsePlace_Item_Group_Item_Right{
+  display: inline-block;
+  margin-left: 0.683rem;
+  width: 3.415rem;
+  background-color: white;
+  height: 4.3712rem;
+  cursor:default;
+}
+
+.UseTestUsePlace_Item_Group_Item_Right:hover{
+  box-shadow: 0 0.04rem 0.08rem 0 rgba(0, 0, 0, 0.2), 0 0.06rem 0.20rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.UseTestUsePlace_Item_Group_Item_Img_Left{
+    background-image: url("./image/停车场闸机识别.png");
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+}
+
+.UseTestUsePlace_Item_Group_Item_Img_Right{
+    background-image: url("./image/路道违章识别.png");
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+}
+
+.UseTestUsePlace_Item_Group_Item_Word_Title{
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 3%;
+    height: 9%;
+}
+
+.UseTestUsePlace_Item_Group_Item_Word_Content{
+    font-size: 0.15rem;
+    font-weight: 300;
+    height: 17%;
+    margin-top: 3%;
+    padding-left:4%;
+    padding-right:4%;
+}
+</style>
